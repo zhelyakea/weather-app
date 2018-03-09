@@ -1,0 +1,55 @@
+@import "../../variables.scss";
+.MainPage {
+  display: flex;
+  flex-flow: column nowrap;
+  &__cities {
+    flex: 0 0 auto;
+    min-width: 230px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-self: center;
+    margin-top: 10px;
+  }
+  &__cities-title {
+    align-self: center;
+  }
+  &__current-position {
+    text-align: center;
+    margin: 0;
+  }
+  &__current-position-title {
+    text-align: center;
+  }
+  &__current-position-param {
+    font-weight: bold;
+  }
+  &__city-title {
+    text-align: center;
+  }
+  &__input {
+    flex: 0 0 auto;
+    min-width: 200px;
+    align-self: center;
+    text-align: center;
+  }
+  &__header {
+    background-color: #222;
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+  &__title {
+    font-size: 1.5em;
+  }
+  &__add-wrapper {
+    flex: 0 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    align-self: center;
+  }
+  &__add-button {
+    @include button;
+    color: white;
+    background: #00bfa5;
+  }
+}

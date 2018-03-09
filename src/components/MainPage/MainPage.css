@@ -1,0 +1,48 @@
+.MainPage {
+  display: flex;
+  flex-flow: column nowrap; }
+  .MainPage__cities {
+    flex: 0 0 auto;
+    min-width: 230px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-self: center;
+    margin-top: 10px; }
+  .MainPage__cities-title {
+    align-self: center; }
+  .MainPage__current-position {
+    text-align: center;
+    margin: 0; }
+  .MainPage__current-position-title {
+    text-align: center; }
+  .MainPage__current-position-param {
+    font-weight: bold; }
+  .MainPage__city-title {
+    text-align: center; }
+  .MainPage__input {
+    flex: 0 0 auto;
+    min-width: 200px;
+    align-self: center;
+    text-align: center; }
+  .MainPage__header {
+    background-color: #222;
+    padding: 20px;
+    color: white;
+    text-align: center; }
+  .MainPage__title {
+    font-size: 1.5em; }
+  .MainPage__add-wrapper {
+    flex: 0 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    align-self: center; }
+  .MainPage__add-button {
+    outline: none;
+    vertical-align: middle;
+    text-decoration: none;
+    font-weight: bold;
+    border: 0px solid transparent;
+    cursor: default;
+    font-size: 1em;
+    color: white;
+    background: #00bfa5; }

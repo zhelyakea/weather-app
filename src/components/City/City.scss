@@ -1,0 +1,25 @@
+@import "../../variables.scss";
+.City {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #dcdbdb;
+  margin: 5px 0;
+  padding-left: 10px;
+  &__remove-button {
+    @include button;
+    color: white;
+    background: #e57373;
+  }
+  &__right-block {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  &__text {
+    margin: 0;
+  }
+  &__temp {
+    margin: 0 5px 0 0;
+  }
+}

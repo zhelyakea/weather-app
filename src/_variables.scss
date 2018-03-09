@@ -1,0 +1,9 @@
+@mixin button {
+  outline: none;
+  vertical-align: middle;
+  text-decoration: none;
+  font-weight: bold;
+  border: 0px solid transparent;
+  cursor: default;
+  font-size: 1em;
+}
